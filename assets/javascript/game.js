@@ -49,7 +49,7 @@ document.onkeyup = function (event) {
     }
 
     // Set the text id in html to this
-    document.getElementById("game").innerHTML = ("Psychic" + "<p>Press a key to guess which letter the computer has chosen.</p>" +
+    document.getElementById("game").innerHTML = ("Psychic Game" + "<p>Press a key to guess which letter the computer has chosen.</p>" +
         "<p>Wins: " + wins + "</p>" +
         "<p>Losses: " + losses + "</p>" +
         "<p>Guesses Left: " + guessesLeft + "</p>" +
